@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestApp2/1.0.0": {
+        "dependencies": {
+          "geometry3Sharp": "1.0.324"
+        },
+        "runtime": {
+          "TestApp2.dll": {}
+        }
+      },
+      "geometry3Sharp/1.0.324": {
+        "runtime": {
+          "lib/netstandard2.0/geometry3Sharp.dll": {
+            "assemblyVersion": "1.0.324.0",
+            "fileVersion": "1.0.324.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "geometry3Sharp/1.0.324": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vdEC1zaX6lV8LI9BvqizplraEJ6zFE98rMM+hDZqVPXMtwDIIY/RpTQQtxe043E9gsSdx0Xyz1TbSqIYQnBPaw==",
+      "path": "geometry3sharp/1.0.324",
+      "hashPath": "geometry3sharp.1.0.324.nupkg.sha512"
+    }
+  }
+}
